@@ -1,3 +1,5 @@
+#takes two integers as input and swap them inplace
+#to swap it doesnt use any extra variable
 def swap(num1,num2):
     num1=num1+num2
     num2=num1-num2
