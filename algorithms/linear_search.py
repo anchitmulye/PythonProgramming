@@ -1,4 +1,4 @@
-"""Module providing unit tests."""
+"""Linear Search."""
 import unittest
 from typing import List, Any
 
