@@ -27,6 +27,21 @@
 4. return -1 (indicating target not found).
 ```
 
+2. Binary Search
+
+```
+1. low = 1, high = n
+2. while low <= high
+3.     mid = [low + high] / 2
+4.     if A[mid] == key
+5.         return mid
+6.     if A[mid] > key
+7.         high = mid - 1
+8.     else
+9.        low = mid + 1
+10. return -1 (indicating target not found).
+```
+
 
 ## Data Structures
 
