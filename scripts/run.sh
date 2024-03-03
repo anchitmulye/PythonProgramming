@@ -10,9 +10,15 @@ run()
     python3 $PROJECT_NAME/$FILE_NAME
 }
 
+analyze()
+{
+    pylint $PROJECT_NAME/$FILE_NAME
+}
+
 if [ $# == 0 ] ; then
     echo "Give file to run in src dir as args!"
 else
     FILE_NAME=$1
     run
+    analyze
 fi
