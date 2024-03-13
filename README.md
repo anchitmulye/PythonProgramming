@@ -6,7 +6,7 @@
 |-------|--------------------------------------------------------------|--------------|
 | 1.    |[Linear Search](/algorithms/linear_search.py)                 | Searching    |
 | 2.    |[Binary Search](/algorithms/binary_search.py)                 | Searching    |
-| 3.    |[Bubble Sort](/algorithms/)                                   | Sorting      |
+| 3.    |[Bubble Sort](/algorithms/bubble_sort.py)                     | Sorting      |
 | 4.    |[Selection Sort](/algorithms/)                                | Sorting      |
 | 5.    |[Insertion Sort](/algorithms/)                                | Sorting      |
 | 6.    |[Merge Sort]()                                                |              |
@@ -42,6 +42,16 @@
 10. return -1 (indicating target not found).
 ```
 
+3. Bubble Sort
+
+Iteratively compares adjacent elements and swaps them if they are in the wrong order until the list is sorted.
+
+```
+1. for i = 1 to n - 1
+2.     for j = 1 to n - i - 1
+3.         if A[j] > A[j + 1]
+4.             exchange A[j] with A[j + 1]
+```
 
 ## Data Structures
 
